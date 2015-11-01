@@ -69,6 +69,13 @@ If you want to enable CORS for a specific route or routes group, you just have t
 
 Thanks to the _barryvdh/laravel-cors_ package, you can handle CORS easily. Just check <a href="https://github.com/barryvdh/laravel-cors" target="_blank">the docs at this page</a> for more info.
 
+## AngularJs App
+There is an AngularJs app scaffolded within the public directory, once you clone the repo, in order to make it work you just need to type
+```
+cd public
+bower install
+```
+
 ## Notes
 
 I actually removed the _VerifyCsrfToken_ middleware from the _$middleware_ array in _app/Http/Kernel.php_ file. If you want to use it in your project, just use the route middleware _csrf_ you can find, in the same class, in the _$routeMiddleware_ array.
