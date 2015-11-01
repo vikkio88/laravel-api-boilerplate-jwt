@@ -2,19 +2,20 @@
 
 <head>
     <!-- Css Files -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/app.css" rel="stylesheet">
-    <link href="css/angular-busy.min.css" rel="stylesheet">
+    <link href="bower_components/angular-busy/angular-busy.css" rel="stylesheet">
 
     <!-- AngularJs -->
-    <script type="application/javascript" src="js/angular.min.js"></script>
-    <script type="application/javascript" src="js/angular-ui-router.js"></script>
-    <script type="application/javascript" src="js/angular-breadcrumb.min.js"></script>
-    <script type="application/javascript" src="js/angular-busy.min.js"></script>
+    <script type="application/javascript" src="bower_components/angular.min.js"></script>
+    <script type="application/javascript" src="bower_components/angular-ui-router.js"></script>
+    <script type="application/javascript" src="bower_components/angular-animate/angular-animate.min.js"></script>
+    <script type="application/javascript" src="bower_components/angular-breadcrumb/dist/angular-breadcrumb.min.js"></script>
+    <script type="application/javascript" src="bower_components/angular-busy/angular-busy.js"></script>
 
     <!-- Js Libraries -->
-    <script type="application/javascript" src="js/jquery.min.js"></script>
-    <script type="application/javascript" src="js/bootstrap.min.js"></script>
+    <script type="application/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="application/javascript" src="bower_components/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- AngularApp -->
     <script type="application/javascript" src="app/app.js"></script>
